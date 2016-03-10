@@ -32,15 +32,6 @@ public class CBResponseController {
      *
      * @param description description data
      */
-    public static void process(String description) {
-        process(new CBCommonResult<>(CBCommonResultCode.SUCCESS, description));
-    }
-
-    /**
-     * process and push description to client
-     *
-     * @param description description data
-     */
     public static void process(CBCommonResultCode resultCode, String description) {
         process(new CBCommonResult<>(resultCode, description));
     }
