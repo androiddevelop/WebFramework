@@ -7,17 +7,17 @@ repositories {
     mavenLocal()
 }
 
-group 'me.codeboy.framework'
-version '1.0.0'
+group 'me.codeboy.common'
+version '1.0.1'
 
 apply plugin: 'idea'
 apply plugin: 'java'
-apply plugin: 'war'
 apply plugin: 'maven'
 apply plugin: 'maven-publish'
 
 dependencies {
-    providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+    //War's providedCompile scope will override jar's compile scope.
+    compile 'javax.servlet:javax.servlet-api:3.1.0'
     compile 'org.hibernate:hibernate-core:4.3.7.Final'
     compile 'org.apache.struts:struts2-core:2.3.20'
     compile 'com.google.code.gson:gson:2.6.2'
@@ -93,7 +93,7 @@ bintray {
         publicDownloadNumbers = true
         publish = true
         version {
-            name = "1.0.0"
+            name = "1.0.1"
             gpg {
                 sign = true
                 passphrase = properties.getProperty("bintray.gpg.password")
