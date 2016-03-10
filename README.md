@@ -36,7 +36,7 @@
 
 ## 3.项目引入
 
-	compile 'me.codeboy.common:framework:1.0.1'
+	compile 'me.codeboy.common:framework:1.1.0'
 
 ## 4.使用说明
 
