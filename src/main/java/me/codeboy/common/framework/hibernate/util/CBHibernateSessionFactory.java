@@ -1,4 +1,4 @@
-package me.codeboy.framework.hibernate.util;
+package me.codeboy.common.framework.hibernate.util;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;

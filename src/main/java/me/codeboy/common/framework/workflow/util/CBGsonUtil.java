@@ -1,4 +1,4 @@
-package me.codeboy.framework.workflow.util;
+package me.codeboy.common.framework.workflow.util;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

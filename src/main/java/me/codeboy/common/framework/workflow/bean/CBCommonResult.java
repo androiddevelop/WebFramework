@@ -1,7 +1,7 @@
-package me.codeboy.framework.workflow.bean;
+package me.codeboy.common.framework.workflow.bean;
 
 import com.google.gson.annotations.Expose;
-import me.codeboy.framework.workflow.core.CBCommonResultCode;
+import me.codeboy.common.framework.workflow.core.CBCommonResultCode;
 
 /**
  * 通用结果

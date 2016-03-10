@@ -1,9 +1,9 @@
-package me.codeboy.framework.workflow.core;
+package me.codeboy.common.framework.workflow.core;
 
 import com.google.gson.reflect.TypeToken;
 import me.codeboy.common.base.log.CBPrint;
-import me.codeboy.framework.workflow.bean.CBCommonResult;
-import me.codeboy.framework.workflow.util.CBGsonUtil;
+import me.codeboy.common.framework.workflow.bean.CBCommonResult;
+import me.codeboy.common.framework.workflow.util.CBGsonUtil;
 import org.apache.struts2.ServletActionContext;
 
 import javax.servlet.http.HttpServletResponse;

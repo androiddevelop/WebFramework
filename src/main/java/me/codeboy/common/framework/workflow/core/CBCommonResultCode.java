@@ -1,4 +1,4 @@
-package me.codeboy.framework.workflow.core;
+package me.codeboy.common.framework.workflow.core;
 
 /**
  * 通用结果类型

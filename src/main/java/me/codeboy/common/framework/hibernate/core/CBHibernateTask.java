@@ -1,6 +1,6 @@
-package me.codeboy.framework.hibernate.core;
+package me.codeboy.common.framework.hibernate.core;
 
-import me.codeboy.framework.hibernate.util.CBHibernateSessionFactory;
+import me.codeboy.common.framework.hibernate.util.CBHibernateSessionFactory;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
