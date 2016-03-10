@@ -43,7 +43,7 @@
 - 需要使用连接池以及hibernate配置等，请自行加入，可以参考[WebFrameworkExample](https://github.com/androiddevelop/WebFrameworkExample)
 - Struts2返回json的方式有多种，本项目采用的是在return之前将数据输出到客户端
 
-## 4.简单例子
+## 5.简单例子
 
 ### hibernate操作:
 
