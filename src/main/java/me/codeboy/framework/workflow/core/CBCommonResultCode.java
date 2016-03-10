@@ -6,7 +6,7 @@ package me.codeboy.framework.workflow.core;
  */
 public enum CBCommonResultCode {
 
-    SUCCESS(0), FAILED(-1), EXCEPTION(-2);
+    SUCCESS(0), FAILED(-1), EXCEPTION(-2), OTHERS(-3);
 
     private int value;
 
