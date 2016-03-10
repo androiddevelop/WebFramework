@@ -9,11 +9,11 @@ import me.codeboy.framework.workflow.core.CBCommonResultCode;
  */
 public class CBCommonResult<T> {
     @Expose
-    private int code = CBCommonResultCode.SUCCESS.value();
+    private int code = CBCommonResultCode.SUCCESS.value(); //执行码
     @Expose
-    private T data;
+    private T data; //数据
     @Expose
-    private String description;
+    private String description; //描述
 
     public CBCommonResult(T data) {
         this.data = data;

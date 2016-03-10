@@ -13,7 +13,12 @@ import org.hibernate.Transaction;
 public abstract class CBHibernateTask<T> {
     private T t;  //所需结果类型
 
-    public abstract T doTask(Session session); //执行任务
+    /**
+     * 执行数据库操作
+     * @param session db session
+     * @return data
+     */
+    public abstract T doTask(Session session);
 
     /**
      * 执行成功时的操作
