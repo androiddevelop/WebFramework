@@ -32,11 +32,11 @@
 
 ### **description** - 描述 
 
-  操作失败，异常等其他非成功的情况下的描述
+  操作成功, 失败，异常等情况下的描述
 
 ## 3.项目引入
 
-	compile 'me.codeboy.common:framework:1.1.0'
+	compile 'me.codeboy.common:framework:1.1.1'
 
 ## 4.使用说明
 
